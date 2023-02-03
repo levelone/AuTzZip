@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    auttzip (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.17.0)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  auttzip!
+  minitest
+
+BUNDLED WITH
+   2.3.19
