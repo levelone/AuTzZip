@@ -16,6 +16,8 @@ class Autzzip
   }.freeze
 
   def self.find_by_zipcode(zip)
+    return if zip.nil?
+
     padded_zip = zip.rjust(4, '000')
     ZIP_MAPPING[padded_zip] ? ZIP_MAPPING[padded_zip] : ZIP_MAPPING[padded_zip[0]]
   end

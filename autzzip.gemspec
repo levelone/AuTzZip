@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = "auttzip"
+  s.name        = "autzzip"
   s.version     = "0.0.1"
   s.summary     = "Au Tz Zip"
   s.description = "Return Timezone based on AU zipcodes"

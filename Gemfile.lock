@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    auttzip (0.0.1)
+    autzzip (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -10,9 +10,10 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
-  auttzip!
+  autzzip!
   minitest
 
 BUNDLED WITH
