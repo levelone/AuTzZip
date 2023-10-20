@@ -13,5 +13,5 @@ Access console and run the ff:
 require 'autzzip'
 
 # find australian zipcode
-Autzzip.find_by_zip('2000')
+Autzzip.find_by_zipcode('2000')
 ```

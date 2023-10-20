@@ -1,7 +1,7 @@
 require 'autzzip'
 require "minitest/autorun"
 
-class TestAuTzzip < Minitest::Test
+class TestAutzzip < Minitest::Test
   def test_sydney_tz
     assert_equal "Australia/Sydney", Autzzip.find_by_zipcode('2001')
   end
@@ -16,5 +16,9 @@ class TestAuTzzip < Minitest::Test
 
   def test_nil_random_zip_code
     assert_nil Autzzip.find_by_zipcode('9999')
+  end
+
+  def test_nil_empty_string
+    assert_nil Autzzip.find_by_zipcode('')
   end
 end
